@@ -26,7 +26,10 @@
                 <li>
                     <a class='linksText' href="#education">Education</a>
                 </li>
+
             </ul>
+
+            <p id="copyright">© 2023 Lee Jun Yang.</p>
         </div>
 
         <div class="contents">
@@ -43,6 +46,17 @@
                     Nanyang Technological University | Jul 2022 - Present
                     
                 </p>
+                <br>
+                <p id="plang"> 
+                    Programming Languages:
+                    <br>
+                    Java, Python, C++, C, HTML, CSS, JavaScript, Assembly
+                    <br>
+                    <br>
+                    Others:
+                    <br>
+                    Node.js, Firebase, Vue.js, OOP
+                </p>
             </section>
 
             <section class='Heads' id="projects">
@@ -55,7 +69,7 @@
                                 <div class="card2">
                                     <a href="https://github.com/JYL480/SC1015-Anime-score-prediction" ><img class='p1Pic' src="../assets/P1Pic.png" style="max-width:100%;height:auto;border-radius: 13px;"></a>
                                     
-                                    <a class='projectLink' href="https://github.com/JYL480/SC1015-Anime-score-prediction">GitHub Link <font-awesome-icon class='linkIcon' icon="fa-solid fa-link" /><div class="languages">
+                                    <a class='projectLink' href="https://github.com/JYL480/SC1015-Anime-score-prediction">SC1015: DSAI GitHub Link <font-awesome-icon class='linkIcon' icon="fa-solid fa-link" /><div class="languages">
                                 
  
                             </div></a><button class="btn">Python</button>
@@ -94,20 +108,19 @@
                     <div class="card">
                         <article class="p2">
                             <div class="card2">
-                            <a href="https://zi-char-project.web.app/#/Menu"><img class='p2Pic' src="../assets/P2PIC.png" style="max-width:100%;height:auto;border-radius: 19px;;"></a>
+                            <a href="https://github.com/JYL480/SC2002_Lab_Project"><img class='p2Pic' src="../assets/PIC3.png" style="max-width:100%;height:auto;border-radius: 19px;;"></a>
                             
-                            <a class='projectLink' href="https://zi-char-project.web.app/#/Menu">Website Link <font-awesome-icon icon="fa-solid fa-link" />                 
+                            <a class='projectLink' href="https://github.com/JYL480/SC2002_Lab_Project">SC2002: OOP GitHub Link <font-awesome-icon icon="fa-solid fa-link" />                 
                             <br>
                           </a>      <div class="languages">
                             <p>
-                                <button class="btn">Vue.js</button>
-                                <button class="btn">HTML</button>
-                                <button class="btn">CSS</button>
-                                <button class="btn">JavaScript</button>
+                                <button class="btn">Java</button>
+                                <button class="btn">OOP</button>
                             </p>
  
                             </div>
-                            <p class="textDetails">Personal side project, I created a Chinese ZiChar website where you are able to log in and order the selected food items. I made use of Vue.js and Firebase 
+                            <p class="textDetails">Used SOLID and OOP design principles to create a camp booking system
+ 
            
                             </p>
        
@@ -394,7 +407,21 @@
         font-family: 'Roboto Condensed', sans-serif;
         margin-bottom: 10px;
     }
+    #interests {
+        margin-top: 300px;
+    }
 
+    #copyright{
+        color: #F2F2F2;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: small;
+        margin-top: 250px;
+    }
+
+    #plang{
+        color: #F2F2F2;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
 
 
     @media screen and (min-width: 481px) and (max-width: 768px)
