@@ -91,6 +91,31 @@
 
                         </article>
                     </div>
+                    <div class="card">
+                        <article class="p2">
+                            <div class="card2">
+                            <a href="https://zi-char-project.web.app/#/Menu"><img class='p2Pic' src="../assets/P2PIC.png" style="max-width:100%;height:auto;border-radius: 19px;;"></a>
+                            
+                            <a class='projectLink' href="https://zi-char-project.web.app/#/Menu">Website Link <font-awesome-icon icon="fa-solid fa-link" />                 
+                            <br>
+                          </a>      <div class="languages">
+                            <p>
+                                <button class="btn">Vue.js</button>
+                                <button class="btn">HTML</button>
+                                <button class="btn">CSS</button>
+                                <button class="btn">JavaScript</button>
+                            </p>
+ 
+                            </div>
+                            <p class="textDetails">Personal side project, I created a Chinese ZiChar website where you are able to log in and order the selected food items. I made use of Vue.js and Firebase 
+           
+                            </p>
+       
+        
+                            </div>
+
+                        </article>
+                    </div>
                      
                     </section>
                 </div>
